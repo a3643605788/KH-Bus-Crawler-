@@ -19,7 +19,7 @@ def getdata(url):
 
 
 
-# --------------- 讓程式模仿普通人的訪問動作 ---------------
+# --------------- 建立一個 request 物件，附加 request header 的資訊好做爬蟲動作不被隔擋 ---------------
 url = "https://ibus.tbkc.gov.tw/cms/driving-map"
 
 re = req.Request(url , headers = {
